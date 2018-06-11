@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleTimePicker">
+        <attr name="hour_redius" format="dimension|reference"/>
+        <attr name="progress_radius" format="dimension|reference"/>
+        <attr name="minute_radius" format="dimension|reference"/>
+        <attr name="hour_color" format="color|reference"/>
+        <attr name="progress_background_color" format="color|reference"/>
+        <attr name="progress_color" format="color|reference"/>
+        <attr name="minute_color" format="color|reference"/>
+        <attr name="text_color" format="color|reference"/>
+        <attr name="hour_stroke_size" format="dimension|reference"/>
+        <attr name="minute_stroke_size" format="dimension|reference"/>
+        <attr name="background_stroke_size" format="dimension|reference"/>
+        <attr name="text_size" format="dimension|reference"/>
+        <attr name="start_angle" format="integer|reference"/>
+        <attr name="end_angle" format="integer|reference"/>
+        <attr name="measure_offset" format="dimension|reference"/>
+        <attr name="picker_model">
+            <enum name="TIME_PICKER" value="1"/>
+            <enum name="RANGE_PICKER" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
